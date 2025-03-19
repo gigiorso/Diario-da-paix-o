@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Lamborghini</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-white p-4">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <!-- Logo, se tiver -->
+            
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-white" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+            <!-- Botão de acessibilidade -->
+            <div id="acessibilidade" class="menu-acessibilidade">
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">Acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="Diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alternar o contraste de cores"><i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main class="container my-5">
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas à Diario da Paixão</h1>
+                    <a href="#tropicalia" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero conhecer!</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a Lamborghini">
+            <div class="container d-flex align-items-center">
+                <div class="col-4 d-flex justify-content-center">
+                    <img src="108fa30f-cf47-4c86-adb1-7fc267f1da9a.jpeg" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Diario de Paixão</h2> 
+                    <p>Diário de uma Paixão (2004) é um drama romântico baseado no livro de Nicholas Sparks. O filme conta a história de Noah (Ryan Gosling) e Allie (Rachel McAdams), dois jovens de classes sociais diferentes que se apaixonam nos anos 1940. Separados pela família de Allie e pelas circunstâncias da vida, eles seguem caminhos distintos, mas o amor entre eles nunca desaparece.
+                        Após muitas dificuldades os dois ficam juntos, mas a idade chega e Allie acaba sendo diagnosticada com alzheimer, mas Noah fica ao lado dela. Juntos eles vão para uma casa de repouso, e por conta da doença Allie perde suas memórias, então Noah faz questão de ler o diário deles todos os dias para lembrá-la de tudo que viveram. Assim, narrando a história do casal. Com uma fotografia encantadora, atuações marcantes e um final emocionante, Diário de uma Paixão se tornou um dos romances mais icônicos do cinema.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Senas Marcantes</h2>
+            <div class="container p-3 mt-3 fundo-galeria">
+                <!-- Primeira linha com duas imagens -->
+                <div class="row align-items-center mb-4 justify-content-center">
+                    <div class="col-md-5 text-center">
+                        <img src="53c261ec-fa6a-4302-a29b-5d2cda278569.jpeg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <img src="4ca65557-d658-40f6-99ec-41212bf88558.jpeg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Segunda linha com duas imagens -->
+                <div class="row align-items-center mb-4 justify-content-center">
+                    <div class="col-md-5 text-center">
+                        <img src="108fa30f-cf47-4c86-adb1-7fc267f1da9a.jpeg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <img src="498b208c-58d6-46b4-88b9-b07361d1936a.jpeg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white text-center p-4">
+    
+        </div>
+        <p class="mt-3">Desenvolvido por Giovana Orso</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
